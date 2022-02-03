@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8" >
+    <title>Artful Echo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1 class="homepage-title"></a>Artful Echo</h1>
+<h3 class="homepage-subtitle" id="homepage-title-id">Fine Artist and Illustrator</h3> 
+
+
+<!--Linking Pages to each other-->
+<!--Navigation Menu-->
+<nav class= "homepage-menudesign">
+
+    <ul>
+    <li type="none"><a href="homepage.html">Home </a></li>
+    <li type="none"><a href="aboutme.html">About Me </a></li>
+    <li type="none"><a href="fineart.html">Fine Art </a></li>
+    <li type="none"><a href="illustration.html">Illustrations </a></li>
+    <li type="none"><a href="contactme.html">Contact Info </a></li><br>
+    </ul>
+</nav>
+
+
+<h1 class= "otherpage-titles" >Contact Me</h1>
+<div class= "wrapper">
+<!--Contact Form-->
+<main>
+    <section id="formSection">
+        <form  id="contactform" action="mailto:artful.echo@gmail.com" method="get" enctype="text/plain">
+            <fieldset>
+            <legend>Type your Query here</legend>
+            <label for="fullname">Name and Surname:</label>
+            <input type=text name="fullname" id="fullname" placeholder="Write your Full Name">
+            <div class="clear"></div>
+
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email" placeholder="Write your Email Address">
+            <div class="clear"></div>
+
+            <label for="subject">Subject:</label>
+            <input type="subject" name="subject" id="subject" placeholder="Write your Subject">
+            <div class="clear"></div>
+
+            <label for="comments">Your Message:</label>
+            <textarea rows="10" cols="40" name="comments" id="comments"placeholder="Write your Message">
+            </textarea>
+            <div class="clear"></div>
+
+<!--The submit button that will launch the Email-->
+            <input type="submit" value="Submit">
+            </fieldset>
+
+            <img class="banner-position"  src="portfolioimg/banner3.jpg" alt="Banner3"><br>
+        </form>
+    </section>
+</main>
+
+</div>
+
+
+</body>
+
+</html>
